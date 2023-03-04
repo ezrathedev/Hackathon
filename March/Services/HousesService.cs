@@ -2,5 +2,10 @@ namespace DefaultNamespace;
 
 public class HousesService
 {
-    //Huge pantry & 2 fridges
+    public async Task<HousesPageVm> HousesPage()
+    {
+        var hpvm = new HousesPageVm();
+        
+    }
+    
 }
